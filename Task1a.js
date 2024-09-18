@@ -23,6 +23,14 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("Apply to y/cs!");
+    todoList.push("Pick out my ckasses");
+    todoList.push("Have dinner with my suite");
+
+    console.log("My Todo List for the first week at Yale:");
+    todoList.forEach(function(task, index) {
+        console.log((index + 1) + ". " + task)
+    });
 }
 
 /**
